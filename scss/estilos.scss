@@ -1,0 +1,105 @@
+@import "_variables.scss";
+@import "_main.scss";
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:$bg-color-ligth;
+    font-family: 'Hind Guntur', sans-serif;
+}
+#header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    }
+#Nav1{
+    background-color: $bg-color-dark;
+}
+
+#Nav2{
+    background-color: $bg-color-medium;
+}
+#Nav2 a{
+    text-decoration: none;
+    color: $text-c-ligth;
+    z-index: -5;
+}
+.menu__nav-colapsado{
+    color:$text-c-ligth;
+    margin: auto;
+}
+#nav__item-hover:hover{
+    background-color:$bg-color-hover;
+    color:$text-c-hover;
+    border-radius: 8px;
+}
+.dropdown-menu{
+    background-color: $bg-color-medium;
+}
+.secciones__titulo-bg {
+    padding: 5px;
+    background-color: rgb(139, 139, 139);
+    justify-content: center;
+}
+.secciones__texto-formato{
+    font-size: x-large;
+    text-align: center;
+    margin: auto;
+    color: $text-c-ligth;
+}
+#TextoIndex{
+    height: auto;
+    color: $text-c-dark;
+    height: auto;
+    border-radius: 3px;
+    margin: 20px;
+    float: unset;
+}
+.Index__title-format{
+    text-align: center;
+    font-size:x-large;
+    font: bold;
+    color: $text-c-dark;
+}
+.index__text-format{
+    text-align: center;
+}
+#CarouselTamaño{
+    position:absolute;
+    top: 350px;
+}
+#carouselExampleInterval{
+    height: 35rem;
+    overflow: hidden;
+    margin: 50px 0 0 50px;
+}
+#CardsIndvidual{
+    background-color: none;
+    border-style:groove;
+    border-color: $bg-color-medium;
+    color: $text-c-dark;
+}
+.card-img-top{
+    border-radius: 4px;
+}
+.contactos__forms-format{
+    background-color: $bg-color-ligth;
+    margin: 2rem;
+}
+.parts__contact-space{
+    margin: 0.5rem;
+}
+footer{
+    background-color: $bg-color-medium;
+    color: $text-c-dark;
+    text-decoration: none;
+    a{
+        text-decoration: none;
+        color:$text-c-ligth;
+        }
+    }
