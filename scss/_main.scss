@@ -19,6 +19,15 @@
 #ButonCards{
     @include Botones;   
 }
+#LinkFooter{
+    @include Botones;
+}
+#ButonParchuse{
+    @include Botones;
+}
+.botonContacto{
+    @include Botones()
+}
 
 @mixin Txt{
     justify-content: center;

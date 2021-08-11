@@ -1,8 +1,14 @@
-$text-c-ligth: rgb(255, 196, 0);
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Finger+Paint&family=Poiret+One&display=swap');
+
+$text-c-ligth: rgb(255, 255, 255);
 $text-c-dark: rgb(0, 0, 0);
-$text-c-hover:rgb(196, 67, 67);
+$text-c-hover:rgb(0, 102, 105);
 
 $bg-color-ligth: rgb(235, 235, 235);
-$bg-color-medium: rgb(99, 98, 98);
-$bg-color-dark: rgb(192, 70, 0);
-$bg-color-hover: rgb(202, 202, 202);
+$bg-color-medium: rgb(0, 48, 77);
+$bg-color-dark: rgb(0, 31, 59);
+$bg-color-hover: rgb(255, 255, 255);
+
+$font-type-blood:'Encode Sans SC';
+$font-type-slim:'Encode Sans SC';
+$font-type-medium:'Encode Sans SC';
